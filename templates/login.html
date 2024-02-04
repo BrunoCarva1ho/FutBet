@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/registro.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="../static/img/imagem-fundo.png" alt="">
+        </div>
+        <div class="form">
+
+            <form action="/login.html" method="POST">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Entrar</h1>
+                    </div>
+                    <div class="login-button">
+                        <button type="reset"><a href="/registro.html">Cadastre-se</a></button>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="email">Nome de Usuário</label>
+                        <input id="email" type="text" name="email" placeholder="Digite seu email" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="senha">Senha</label>
+                        <input id="senha" type="text" name="senha" placeholder="Digite sua senha" required>
+                    </div>
+
+                </div>
+
+                <div class="continue-button">
+                    <button type="submit" style="color: #ffffff;">Continuar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

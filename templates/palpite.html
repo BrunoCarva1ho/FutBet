@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Palpitar</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/style01.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/registro.css">
+</head>
+
+<body style="background-color: rgb(114, 228, 94);">
+
+    <nav class="nav-bar">
+        <h3 style="top: 0.4rem; position:absolute; left:0.5rem;">Usuário Logado: {{id}}</h3>
+        <a href="/principal.html/{{id}}" class="voltar"></a>
+    </nav>
+
+    <style>
+        textarea {
+            width: 100%;
+            height: 200px;
+            padding: 10px;
+            box-sizing: border-box;
+            resize: vertical;
+        }
+    </style>
+
+    <main class="table" id="customers_table">
+        <section class="table__header">
+            <h1>Fazer um palpite</h1>
+        </section>
+        <section class="table__body">
+            <form action="/palpite.html/{{id}}" method="POST">
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="palpite">Palpite</label>
+                        <input id="palpite" style="width:65rem; resize:vertical; height:4rem;" type="text" name="palpite"
+                            placeholder="Digite seu palpite" required>
+                    </div><br>
+                </div>
+
+                <div class="continue-button" style="margin-top: -2rem;">
+                    <button style="color: #fff;" type="submit">Enviar</button>
+                </div>
+
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

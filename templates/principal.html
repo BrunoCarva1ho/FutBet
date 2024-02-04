@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FutBet Palpites</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/style01.css">
+</head>
+
+<body style="background-color: rgb(114, 228, 94);">
+
+    <nav class="nav-bar">
+        <h3 style="top: 0.4rem; position:absolute; left:0.5rem;">Usuário Logado: {{id}}</h3>
+        <a href="/login.html" class="sair"></a><br>
+        <a href="/palpite.html/{{id}}" class="enviar-palpite"></a>
+    </nav>
+
+    <main class="table" id="customers_table">
+        <section class="table__header">
+            <h1 style="position:absolute; left:50%; transform:translate(-50%,0)">Palpites de nossos Usuários</h1>
+        </section>
+        <section class="table__body">
+            <table>
+                <thead>
+                    <tr>
+                        <th> Usuário </th>
+                        <th> Palpite</th>
+                        <th></th>
+                        <th style="left: 50%;"> Interações</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                {% for palpite in palpites %}
+                <tbody>
+                    <tr>
+                        <td> {{palpite.0}} </td>
+                        <td> {{palpite.1}} </td>
+                        <td> {{palpite.2}}</td>
+                        <td style="padding: 0.1rem;"><a href="/like/{{palpite.0}}/{{palpite.1}}/{{id}}" class="like"></a></td>
+                        <td><a href="/deslike/{{palpite.0}}/{{palpite.1}}/{{id}}" class="deslike"></a></td>
+                        <td> {{palpite.3}}</td>
+                        
+                    </tr>
+                </tbody>
+                {%endfor%}
+            </table>
+        </section>
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
