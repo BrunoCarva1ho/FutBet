@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("/public/font/Poppins/Poppins-Black.ttf")format("truetype");
+}
+
+body,
+html {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+}
+
+img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+
+    background-size: cover;
+    z-index: -1;
+}
+
+
+
+.retangulo {
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 7%;
+    top: 0%;
+    margin: 0%;
+    background: #616161;
+
+}
+
+
+.Titulo-login {
+
+    width: center;
+    /* Defina a largura desejada para o contêiner */
+    color: #ffffff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 190%;
+    top: 2%;
+    font-style: normal;
+    line-height: normal;
+
+}
+
+.Retangulo-login {
+
+    position: absolute;
+    width: 30%;
+    height: 65%;
+    top: 19%;
+    left: 35%;
+
+    border-radius: 27px;
+
+    background-color: #567b00;
+}
+
+
+.Email {
+
+    color: #ffffff;
+    position: absolute;
+    left: 15%;
+    top: 20%;
+
+    font-size: 120%;
+    font-family: Poppins;
+    font-weight: bold;
+}
+
+.input-login {
+    position: absolute;
+    width: 420%;
+    left: -4%;
+    top: 45%;
+
+    border: 8px solid #ccc;
+    border-radius: 22px;
+    background-color: #ccc;
+    color: #333;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.Senha {
+
+    color: #ffffff;
+    position: absolute;
+    left: 15%;
+    top: 45%;
+
+    font-size: 120%;
+    font-family: Poppins;
+    font-weight: bold;
+
+}
+
+.input-senha {
+    position: absolute;
+    width: 410%;
+    left: -4%;
+    top: 50%;
+
+
+    border: 8px solid #ccc;
+    border-radius: 22px;
+    background-color: #ccc;
+    color: #333;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+.botao {
+
+    color: #000000;
+    text-align: center;
+    font-family: Poppins;
+    line-height: 200%;
+
+
+    position: absolute;
+    width: 77%;
+    height: 8%;
+    top: 72%;
+    left: 12%;
+    background-color: #94b900;
+    border-radius: 27px;
+
+    cursor: pointer;
+    /* Muda o cursor ao passar o mouse sobre o botão */
+
+}
+
+.botao:hover {
+    background-color: rgb(58, 92, 0);
+
+}
+
+h3 {
+
+    color: #ffffff;
+    position: absolute;
+    left: 15%;
+    top: 79%;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+h3 {
+
+    color: #ffffff;
+    outline: white;
+
+}

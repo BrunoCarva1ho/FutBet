@@ -1,0 +1,517 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("/public/font/Poppins/Poppins-Black.ttf")format("truetype");
+  font-family: "BebasNeue";
+  src: url("/Static/font/Bebas_Neue/BebasNeue-Regular.ttf") format("truetype");
+}
+
+
+
+body,
+html {
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+
+  background-size: cover;
+  z-index: -1;
+}
+
+
+.descricao {
+
+  width: 13%;
+  /* Defina a largura desejada para o contêiner */
+  color: #FFF;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 70%;
+  margin-top: -8%;
+  font-style: normal;
+  line-height: normal;
+
+  position: absolute;
+  top: 57%;
+  left: 67%;
+  width: 50%;
+  transform: translate(-50%, 0);
+}
+
+.container-logo {
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 52%;
+  height: 22%;
+  left: 82%;
+  width: 18%;
+
+}
+
+
+.subtitulo {
+
+  color: #FFF;
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 7%;
+  font-size: 240%;
+  font-style: normal;
+  line-height: normal;
+
+  position: absolute;
+  top: -2%;
+  left: 68%;
+  transform: translate(-50%, 0);
+}
+
+.btn7 {
+  background-color: #c80000;
+  /* Cor de fundo */
+  color: rgb(255, 255, 255);
+  /* Cor do texto */
+  padding: 30px 30px;
+  /* Espaçamento interno */
+  font-size: 15px;
+  /* Tamanho da fonte */
+  border: none;
+  /* Sem borda */
+  border-radius: 14px;
+  /* Borda arredondada */
+  cursor: pointer;
+  /* Cursor de mão ao passar por cima */
+  padding: 14px;
+  width: 150px;
+  height: 40px;
+
+
+}
+
+.btn7:hover {
+  background-color: #2d0404;
+  /* Cor de fundo ao passar por cima */
+}
+
+
+
+
+.button13 {
+  background-color: #00c617;
+  /* Cor de fundo */
+  color: rgb(0, 0, 0);
+  /* Cor do texto */
+  padding: 15px 10px;
+  /* Espaçamento interno */
+  font-size: 10px;
+  /* Tamanho da fonte */
+  border: none;
+  /* Sem borda */
+  border-radius: 5px;
+  /* Borda arredondada */
+  cursor: pointer;
+  /* Cursor de mão ao passar por cima */
+  padding: 1%;
+  width: 15px;
+  height: 5px;
+
+
+}
+
+.button13:hover {
+  background-color: #042d04;
+  /* Cor de fundo ao passar por cima */
+}
+
+
+.button14 {
+  background-color: #ff0000;
+  /* Cor de fundo */
+  color: rgb(0, 0, 0);
+  /* Cor do texto */
+  padding: 10px 10px;
+  /* Espaçamento interno */
+  font-size: 10px;
+  /* Tamanho da fonte */
+  border: none;
+  /* Sem borda */
+  border-radius: 10px;
+  /* Borda arredondada */
+  cursor: pointer;
+  /* Cursor de mão ao passar por cima */
+  padding: 1%;
+  width: 15px;
+  height: 5px;
+
+
+
+}
+
+.button14:hover {
+  background-color: #550700;
+  /* Cor de fundo ao passar por cima */
+}
+
+
+body,
+html {
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+
+  background-size: cover;
+  z-index: -1;
+}
+
+
+
+.retangulo {
+
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  height: 7%;
+  top: 0%;
+  margin: 0%;
+  background: #616161;
+
+}
+
+
+.Titulo-login {
+
+  width: center;
+  /* Defina a largura desejada para o contêiner */
+  color: #ffffff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 190%;
+  top: 2%;
+  font-style: normal;
+  line-height: normal;
+
+}
+
+.Retangulo-login {
+
+  position: absolute;
+  width: 30%;
+  height: 65%;
+  top: 19%;
+  left: 35%;
+
+  border-radius: 27px;
+
+  background-color: #567b00;
+}
+
+
+.Email {
+
+  color: #ffffff;
+  position: absolute;
+  left: 15%;
+  top: 20%;
+
+  font-size: 120%;
+  font-family: Poppins;
+  font-weight: bold;
+}
+
+.input-login {
+  position: absolute;
+  width: 420%;
+  left: -4%;
+  top: 45%;
+
+  border: 8px solid #ccc;
+  border-radius: 22px;
+  background-color: #ccc;
+  color: #333;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.Senha {
+
+  color: #ffffff;
+  position: absolute;
+  left: 15%;
+  top: 45%;
+
+  font-size: 120%;
+  font-family: Poppins;
+  font-weight: bold;
+
+}
+
+.input-senha {
+  position: absolute;
+  width: 410%;
+  left: -4%;
+  top: 50%;
+
+
+  border: 8px solid #ccc;
+  border-radius: 22px;
+  background-color: #ccc;
+  color: #333;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+
+.botao {
+
+  color: #000000;
+  text-align: center;
+  font-family: Poppins;
+  line-height: 200%;
+
+
+  position: absolute;
+  width: 77%;
+  height: 8%;
+  top: 72%;
+  left: 12%;
+  background-color: #94b900;
+  border-radius: 27px;
+
+  cursor: pointer;
+  /* Muda o cursor ao passar o mouse sobre o botão */
+
+}
+
+.botao:hover {
+  background-color: rgb(58, 92, 0);
+
+}
+
+h3 {
+
+  color: #ffffff;
+  position: absolute;
+  left: 15%;
+  top: 79%;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+h3 {
+
+  color: #ffffff;
+  outline: white;
+
+}
+
+
+.retangulo1 {
+
+
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  height: 7%;
+  top: 0%;
+  margin: 0%;
+  background: #616161;
+
+}
+
+.bloco {
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  width: 80%;
+  /* Ajuste a largura conforme necessário */
+  height: 100%;
+  /* Ajuste a altura conforme necessário */
+  background-color: #6b7a19;
+  /* Cor de fundo do bloco */
+  position: absolute;
+  z-index: 0;
+  top: 50px;
+  /* Ajuste a posição superior conforme necessário */
+
+}
+
+.btnperfil {
+
+  background-color: #474747;
+  /* Cor de fundo */
+  color: rgb(255, 255, 255);
+  /* Cor do texto */
+  padding: 20px 20px;
+  /* Espaçamento interno */
+  font-size: 20px;
+  /* Tamanho da fonte */
+  border: none;
+  /* Sem borda */
+  border-radius: 7px;
+  /* Borda arredondada */
+  cursor: pointer;
+  /* Cursor de mão ao passar por cima */
+  width: 190px;
+  padding: 0.9%;
+  margin-left: 77.5%;
+
+
+}
+
+.btnperfil:hover {
+  background-color: #000000;
+  /* Cor de fundo ao passar por cima */
+}
+
+.btnperfil2 {
+
+  background-color: #474747;
+  /* Cor de fundo */
+  color: rgb(255, 255, 255);
+  /* Cor do texto */
+  padding: 20px 20px;
+  /* Espaçamento interno */
+  font-size: 20px;
+  /* Tamanho da fonte */
+  border: none;
+  /* Sem borda */
+  border-radius: 7px;
+  /* Borda arredondada */
+  cursor: pointer;
+  /* Cursor de mão ao passar por cima */
+  width: 190px;
+  padding: 0.9%;
+  margin-left: 71.3%;
+
+
+}
+
+.btnperfil2:hover {
+  background-color: #000000;
+  /* Cor de fundo ao passar por cima */
+}
+
+.btnperfil3 {
+
+  background-color: #474747;
+  /* Cor de fundo */
+  color: rgb(255, 255, 255);
+  /* Cor do texto */
+  padding: 20px 20px;
+  /* Espaçamento interno */
+  font-size: 20px;
+  /* Tamanho da fonte */
+  border: none;
+  /* Sem borda */
+  border-radius: 7px;
+  /* Borda arredondada */
+  cursor: pointer;
+  /* Cursor de mão ao passar por cima */
+  width: 90px;
+  padding: 0.9%;
+  margin-right: -0.5%;
+
+
+
+}
+
+.btnperfil3:hover {
+  background-color: #000000;
+  /* Cor de fundo ao passar por cima */
+}
+
+
+.botaopublica {
+
+  background-color: #ffffff;
+  /* Cor de fundo */
+  color: rgb(0, 0, 0);
+  /* Cor do texto */
+  padding: 40px 40px;
+  /* Espaçamento interno */
+  font-size: 100%;
+  /* Tamanho da fonte */
+  border: none;
+  /* Sem borda */
+  border-radius: 7px;
+  /* Borda arredondada */
+  cursor: pointer;
+  /* Cursor de mão ao passar por cima */
+  width: 10%;
+  padding: 0.9%;
+  margin-left: 20%;
+
+}
+
+
+.botaopublica:hover {
+  background-color: #616161;
+  /* Cor de fundo ao passar por cima */
+}
+
+::placeholder {
+  color: #999;
+  /* Cor do texto do placeholder */
+  font-style: italic;
+  /* Estilo da fonte do placeholder */
+  /* Outras propriedades de estilo conforme necessário */
+}
+
+.btn {
+  background-color: #3e8e00;
+  /* Cor de fundo */
+  color: rgb(255, 255, 255);
+  /* Cor do texto */
+  padding: 30px 30px;
+  /* Espaçamento interno */
+  font-size: 15px;
+  /* Tamanho da fonte */
+  border: none;
+  /* Sem borda */
+  border-radius: 14px;
+  /* Borda arredondada */
+  cursor: pointer;
+  /* Cursor de mão ao passar por cima */
+  padding: 14px;
+  width: 150px;
+  height: 40px;
+
+
+}
+
+.btn:hover {
+  background-color: #006e1d;
+  /* Cor de fundo ao passar por cima */
+}
+
+input[type="text"] {
+  padding: 10px;
+  /* Adiciona um espaçamento interno de 10 pixels */
+  font-size: 16px;
+  /* Define o tamanho da fonte para 16 pixels */
+  border: 1px solid #ccc;
+  /* Adiciona uma borda cinza com 1 pixel de espessura */
+  border-radius: 5px;
+  /* Adiciona bordas arredondadas */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  /* Adiciona uma sombra sutil */
+  width: 800px;
+  /* Define a largura do campo de texto */
+}
